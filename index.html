@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Todo App.</title>
+    </head>
+    <body> 
+      <div class="wrapper">
+        <header>Todo App.</header>
+        <div class="inputField">
+          <input type="text" placeholder="Add your new todo . . . .">
+          <button>
+           <img src="./Assets/addition-sign.png"/>
+          </button>
+        </div>
+        <ul class="todoList">
+         <div class="task-container">
+          <div class="task-items">
+              <span>Buy a new gaming laptop.</span>
+              <button class="delete-button">
+               <img src="./Assets/delete (1).png" width="20" height="20"/>
+              </button>
+          </div>
+          <div class="task-items">
+              <span>Complete a previous task.</span>
+              <button class="delete-button">
+               <img src="./Assets/delete (1).png" width="20" height="20"/>
+              </button>
+          </div>
+          <div class="task-items">
+              <span>Create video for YouTube.</span>
+              <button class="delete-button">
+               <img src="./Assets/delete (1).png" width="20" height="20"/>
+              </button>
+          </div>
+          <div class="task-items">
+              <span>Create a new portfolio site.</span>
+              <button class="delete-button">
+               <img src="./Assets/delete (1).png" width="20" height="20"/>
+              </button>
+          </div>
+      </div>
+  
+        </ul>
+        <div class="footer">
+          <span>You have <span class="pendingTasks"></span> pending tasks.</span>
+          <button>Clear All.</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+</html>
